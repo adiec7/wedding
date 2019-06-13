@@ -1,0 +1,73 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+/* .carousel-item{
+    height: 100%;
+    width: 100%;
+}  */
+ .navbar {
+background-color: rgba(255,20,147,.5);
+overflow: hidden;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+} 
+.carousel-caption{
+text-transform: uppercase;
+background-color: rgba(255, 20,147, .3);
+text-align: center;
+padding-bottom: 15%;
+border-radius: 60%;
+height: auto;
+width: auto;
+font-family: 'Roboto', sans-serif;
+}
+.details{
+    margin-bottom: 0 ;
+    padding-bottom: 0;
+}
+.details,h2,h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #96327d;
+}
+.line{
+ width: 250px;
+ background-color: #96327d;
+
+}
+
+#align{
+    text-align: center;
+    padding-top: 25%;
+
+}
+.navbar a.active {
+background-color: #4CAF50;
+color: white;
+}
+.card-img-overlay{
+    background-color: rgba(255,20,147, .2);
+}
+.img-fluid{
+    transition: all 0.5s ease;
+    box-shadow: 5px solid blue;
+}
+.img-fluid:hover{
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+footer{
+margin-bottom: 30px;
+background-color: #96327d;
+}
